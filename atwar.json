@@ -1,0 +1,467 @@
+{
+ "app": "atwar",
+ "version": 1,
+ "exportedAt": "2026-10-22T14:53:36.668Z",
+ "sciences": [
+  {
+   "id": "usul",
+   "name": "أصول الفقه",
+   "createdAt": 1792670400000
+  }
+ ],
+ "books": [
+  {
+   "id": "sample-mutamad",
+   "scienceId": "usul",
+   "title": "المعتمد",
+   "author": "أبو الحسين البصري",
+   "death": 436,
+   "school": "حنفي معتزلي",
+   "kind": "أصل",
+   "sample": true,
+   "createdAt": 1792670400000
+  },
+  {
+   "id": "sample-waraqat",
+   "scienceId": "usul",
+   "title": "الورقات",
+   "author": "إمام الحرمين الجويني",
+   "death": 478,
+   "school": "شافعي",
+   "kind": "متن",
+   "sample": true,
+   "createdAt": 1792670400000
+  },
+  {
+   "id": "sample-mustasfa",
+   "scienceId": "usul",
+   "title": "المستصفى",
+   "author": "أبو حامد الغزالي",
+   "death": 505,
+   "school": "شافعي",
+   "kind": "أصل",
+   "sample": true,
+   "createdAt": 1792670400000
+  },
+  {
+   "id": "sample-mahsul",
+   "scienceId": "usul",
+   "title": "المحصول",
+   "author": "فخر الدين الرازي",
+   "death": 606,
+   "school": "شافعي",
+   "kind": "أصل",
+   "sample": true,
+   "createdAt": 1792670400000
+  },
+  {
+   "id": "sample-ihkam",
+   "scienceId": "usul",
+   "title": "الإحكام",
+   "author": "سيف الدين الآمدي",
+   "death": 631,
+   "school": "شافعي",
+   "kind": "أصل",
+   "sample": true,
+   "createdAt": 1792670400000
+  },
+  {
+   "id": "sample-mukhtasar",
+   "scienceId": "usul",
+   "title": "مختصر المنتهى",
+   "author": "ابن الحاجب",
+   "death": 646,
+   "school": "مالكي",
+   "kind": "مختصر",
+   "sample": true,
+   "createdAt": 1792670400000
+  },
+  {
+   "id": "sample-hasil",
+   "scienceId": "usul",
+   "title": "الحاصل",
+   "author": "تاج الدين الأرموي",
+   "death": 653,
+   "school": "شافعي",
+   "kind": "مختصر",
+   "sample": true,
+   "createdAt": 1792670400000
+  },
+  {
+   "id": "sample-minhaj",
+   "scienceId": "usul",
+   "title": "منهاج الوصول",
+   "author": "ناصر الدين البيضاوي",
+   "death": 685,
+   "school": "شافعي",
+   "kind": "متن",
+   "deathNote": "وقيل ٦٩١هـ",
+   "sample": true,
+   "createdAt": 1792670400000
+  },
+  {
+   "id": "sample-jam",
+   "scienceId": "usul",
+   "title": "جمع الجوامع",
+   "author": "تاج الدين السبكي",
+   "death": 771,
+   "school": "شافعي",
+   "kind": "متن",
+   "sample": true,
+   "createdAt": 1792670400000
+  },
+  {
+   "id": "sample-irshad",
+   "scienceId": "usul",
+   "title": "إرشاد الفحول",
+   "author": "محمد بن علي الشوكاني",
+   "death": 1250,
+   "school": "مستقل",
+   "kind": "أصل",
+   "sample": true,
+   "createdAt": 1792670400000
+  }
+ ],
+ "issues": [
+  {
+   "id": "sample-usul",
+   "scienceId": "usul",
+   "name": "تعريف أصول الفقه",
+   "section": "المقدمات",
+   "sample": true,
+   "createdAt": 1792670400000
+  },
+  {
+   "id": "sample-hukm",
+   "scienceId": "usul",
+   "name": "تعريف الحكم الشرعي",
+   "section": "الحكم الشرعي",
+   "sample": true,
+   "createdAt": 1792670400001
+  },
+  {
+   "id": "sample-wajib",
+   "scienceId": "usul",
+   "name": "تعريف الواجب",
+   "section": "الحكم التكليفي",
+   "sample": true,
+   "createdAt": 1792670400002
+  }
+ ],
+ "passages": [
+  {
+   "id": "sample-usul-mutamad",
+   "scienceId": "usul",
+   "issueId": "sample-usul",
+   "bookId": "sample-mutamad",
+   "lead": "أصول الفقه هي",
+   "body": "طرق الفقه على طريق الإجمال، وكيفية الاستدلال بها، وما يتبع كيفية الاستدلال بها",
+   "sample": true,
+   "createdAt": 1792670400000,
+   "updatedAt": 1792670400000
+  },
+  {
+   "id": "sample-usul-waraqat",
+   "scienceId": "usul",
+   "issueId": "sample-usul",
+   "bookId": "sample-waraqat",
+   "lead": "وأصول الفقه:",
+   "body": "طرقه على سبيل الإجمال، وكيفية الاستدلال بها",
+   "sample": true,
+   "createdAt": 1792670400001,
+   "updatedAt": 1792670400001
+  },
+  {
+   "id": "sample-usul-mustasfa",
+   "scienceId": "usul",
+   "issueId": "sample-usul",
+   "bookId": "sample-mustasfa",
+   "lead": "أصول الفقه عبارة عن",
+   "body": "أدلة هذه الأحكام، وعن معرفة وجوه دلالتها على الأحكام من حيث الجملة لا من حيث التفصيل",
+   "sample": true,
+   "createdAt": 1792670400002,
+   "updatedAt": 1792670400002
+  },
+  {
+   "id": "sample-usul-mahsul",
+   "scienceId": "usul",
+   "issueId": "sample-usul",
+   "bookId": "sample-mahsul",
+   "lead": "أصول الفقه عبارة عن",
+   "body": "مجموع طرق الفقه على سبيل الإجمال، وكيفية الاستدلال بها، وكيفية حال المستدل بها",
+   "sample": true,
+   "createdAt": 1792670400003,
+   "updatedAt": 1792670400003
+  },
+  {
+   "id": "sample-usul-ihkam",
+   "scienceId": "usul",
+   "issueId": "sample-usul",
+   "bookId": "sample-ihkam",
+   "lead": "أصول الفقه هي",
+   "body": "أدلة الفقه، وجهات دلالاتها على الأحكام الشرعية، وكيفية حال المستدل بها من جهة الجملة لا من جهة التفصيل",
+   "sample": true,
+   "createdAt": 1792670400004,
+   "updatedAt": 1792670400004
+  },
+  {
+   "id": "sample-usul-mukhtasar",
+   "scienceId": "usul",
+   "issueId": "sample-usul",
+   "bookId": "sample-mukhtasar",
+   "lead": "أصول الفقه:",
+   "body": "العلم بالقواعد التي يتوصل بها إلى استنباط الأحكام الشرعية الفرعية عن أدلتها التفصيلية",
+   "sample": true,
+   "createdAt": 1792670400005,
+   "updatedAt": 1792670400005
+  },
+  {
+   "id": "sample-usul-minhaj",
+   "scienceId": "usul",
+   "issueId": "sample-usul",
+   "bookId": "sample-minhaj",
+   "lead": "أصول الفقه:",
+   "body": "معرفة دلائل الفقه إجمالاً، وكيفية الاستفادة منها، وحال المستفيد",
+   "sample": true,
+   "createdAt": 1792670400006,
+   "updatedAt": 1792670400006
+  },
+  {
+   "id": "sample-usul-jam",
+   "scienceId": "usul",
+   "issueId": "sample-usul",
+   "bookId": "sample-jam",
+   "lead": "أصول الفقه:",
+   "body": "دلائل الفقه الإجمالية، وقيل: معرفتها",
+   "sample": true,
+   "createdAt": 1792670400007,
+   "updatedAt": 1792670400007
+  },
+  {
+   "id": "sample-usul-irshad",
+   "scienceId": "usul",
+   "issueId": "sample-usul",
+   "bookId": "sample-irshad",
+   "lead": "أصول الفقه:",
+   "body": "إدراك القواعد التي يتوصل بها إلى استنباط الأحكام الشرعية الفرعية عن أدلتها التفصيلية",
+   "sample": true,
+   "createdAt": 1792670400008,
+   "updatedAt": 1792670400008
+  },
+  {
+   "id": "sample-hukm-mustasfa",
+   "scienceId": "usul",
+   "issueId": "sample-hukm",
+   "bookId": "sample-mustasfa",
+   "lead": "الحكم عندنا عبارة عن",
+   "body": "خطاب الشرع إذا تعلق بأفعال المكلفين",
+   "sample": true,
+   "createdAt": 1792670400009,
+   "updatedAt": 1792670400009
+  },
+  {
+   "id": "sample-hukm-mahsul",
+   "scienceId": "usul",
+   "issueId": "sample-hukm",
+   "bookId": "sample-mahsul",
+   "lead": "الحكم:",
+   "body": "الخطاب المتعلق بأفعال المكلفين بالاقتضاء أو التخيير",
+   "sample": true,
+   "createdAt": 1792670400010,
+   "updatedAt": 1792670400010
+  },
+  {
+   "id": "sample-hukm-ihkam",
+   "scienceId": "usul",
+   "issueId": "sample-hukm",
+   "bookId": "sample-ihkam",
+   "lead": "الحكم الشرعي عبارة عن",
+   "body": "خطاب الشارع المفيد فائدة شرعية",
+   "sample": true,
+   "createdAt": 1792670400011,
+   "updatedAt": 1792670400011
+  },
+  {
+   "id": "sample-hukm-mukhtasar",
+   "scienceId": "usul",
+   "issueId": "sample-hukm",
+   "bookId": "sample-mukhtasar",
+   "lead": "الحكم:",
+   "body": "خطاب الله تعالى المتعلق بأفعال المكلفين بالاقتضاء أو التخيير أو الوضع",
+   "sample": true,
+   "createdAt": 1792670400012,
+   "updatedAt": 1792670400012
+  },
+  {
+   "id": "sample-hukm-minhaj",
+   "scienceId": "usul",
+   "issueId": "sample-hukm",
+   "bookId": "sample-minhaj",
+   "lead": "الحكم:",
+   "body": "خطاب الله تعالى المتعلق بأفعال المكلفين بالاقتضاء أو التخيير",
+   "sample": true,
+   "createdAt": 1792670400013,
+   "updatedAt": 1792670400013
+  },
+  {
+   "id": "sample-hukm-jam",
+   "scienceId": "usul",
+   "issueId": "sample-hukm",
+   "bookId": "sample-jam",
+   "lead": "الحكم:",
+   "body": "خطاب الله المتعلق بفعل المكلف من حيث إنه مكلف",
+   "sample": true,
+   "createdAt": 1792670400014,
+   "updatedAt": 1792670400014
+  },
+  {
+   "id": "sample-wajib-waraqat",
+   "scienceId": "usul",
+   "issueId": "sample-wajib",
+   "bookId": "sample-waraqat",
+   "lead": "فالواجب:",
+   "body": "ما يثاب على فعله ويعاقب على تركه",
+   "sample": true,
+   "createdAt": 1792670400015,
+   "updatedAt": 1792670400015
+  },
+  {
+   "id": "sample-wajib-mustasfa",
+   "scienceId": "usul",
+   "issueId": "sample-wajib",
+   "bookId": "sample-mustasfa",
+   "lead": "الواجب هو",
+   "body": "الذي يذم تاركه ويلام شرعاً بوجه ما",
+   "sample": true,
+   "createdAt": 1792670400016,
+   "updatedAt": 1792670400016
+  },
+  {
+   "id": "sample-wajib-mahsul",
+   "scienceId": "usul",
+   "issueId": "sample-wajib",
+   "bookId": "sample-mahsul",
+   "lead": "الواجب:",
+   "body": "ما يذم شرعاً تاركه قصداً مطلقاً",
+   "sample": true,
+   "createdAt": 1792670400017,
+   "updatedAt": 1792670400017
+  },
+  {
+   "id": "sample-wajib-ihkam",
+   "scienceId": "usul",
+   "issueId": "sample-wajib",
+   "bookId": "sample-ihkam",
+   "lead": "الواجب:",
+   "body": "ما ينتهض تركه سبباً للذم شرعاً في حالة ما",
+   "sample": true,
+   "createdAt": 1792670400018,
+   "updatedAt": 1792670400018
+  },
+  {
+   "id": "sample-wajib-mukhtasar",
+   "scienceId": "usul",
+   "issueId": "sample-wajib",
+   "bookId": "sample-mukhtasar",
+   "lead": "الواجب:",
+   "body": "ما يذم تاركه شرعاً بوجه ما",
+   "sample": true,
+   "createdAt": 1792670400019,
+   "updatedAt": 1792670400019
+  },
+  {
+   "id": "sample-wajib-minhaj",
+   "scienceId": "usul",
+   "issueId": "sample-wajib",
+   "bookId": "sample-minhaj",
+   "lead": "الواجب:",
+   "body": "ما يذم شرعاً تاركه قصداً مطلقاً",
+   "sample": true,
+   "createdAt": 1792670400020,
+   "updatedAt": 1792670400020
+  }
+ ],
+ "links": [
+  {
+   "id": "sample-link-0",
+   "scienceId": "usul",
+   "from": "sample-mutamad",
+   "to": "sample-mahsul",
+   "note": "ذكر ابن خلدون أن المحصول والإحكام جمعا ما في كتب المتكلمين الأربعة، ومنها المعتمد والمستصفى",
+   "sample": true,
+   "createdAt": 1792670400000
+  },
+  {
+   "id": "sample-link-1",
+   "scienceId": "usul",
+   "from": "sample-mustasfa",
+   "to": "sample-mahsul",
+   "note": "ذكر ابن خلدون أن المحصول والإحكام جمعا ما في كتب المتكلمين الأربعة، ومنها المعتمد والمستصفى",
+   "sample": true,
+   "createdAt": 1792670400000
+  },
+  {
+   "id": "sample-link-2",
+   "scienceId": "usul",
+   "from": "sample-mutamad",
+   "to": "sample-ihkam",
+   "note": "ذكر ابن خلدون أن المحصول والإحكام جمعا ما في كتب المتكلمين الأربعة، ومنها المعتمد والمستصفى",
+   "sample": true,
+   "createdAt": 1792670400000
+  },
+  {
+   "id": "sample-link-3",
+   "scienceId": "usul",
+   "from": "sample-mustasfa",
+   "to": "sample-ihkam",
+   "note": "ذكر ابن خلدون أن المحصول والإحكام جمعا ما في كتب المتكلمين الأربعة، ومنها المعتمد والمستصفى",
+   "sample": true,
+   "createdAt": 1792670400000
+  },
+  {
+   "id": "sample-link-4",
+   "scienceId": "usul",
+   "from": "sample-mahsul",
+   "to": "sample-hasil",
+   "note": "الحاصل اختصار للمحصول",
+   "sample": true,
+   "createdAt": 1792670400000
+  },
+  {
+   "id": "sample-link-5",
+   "scienceId": "usul",
+   "from": "sample-hasil",
+   "to": "sample-minhaj",
+   "note": "بنى البيضاوي المنهاج على الحاصل",
+   "sample": true,
+   "createdAt": 1792670400000
+  },
+  {
+   "id": "sample-link-6",
+   "scienceId": "usul",
+   "from": "sample-ihkam",
+   "to": "sample-mukhtasar",
+   "note": "اختصر ابن الحاجب الإحكام في منتهى السول، ثم اختصر المنتهى في هذا المختصر",
+   "sample": true,
+   "createdAt": 1792670400000
+  },
+  {
+   "id": "sample-link-7",
+   "scienceId": "usul",
+   "from": "sample-mukhtasar",
+   "to": "sample-jam",
+   "note": "ذكر السبكي أن عمدته شرحاه على المختصر والمنهاج مع زيادات من نحو مئة مصنف",
+   "sample": true,
+   "createdAt": 1792670400000
+  },
+  {
+   "id": "sample-link-8",
+   "scienceId": "usul",
+   "from": "sample-minhaj",
+   "to": "sample-jam",
+   "note": "ذكر السبكي أن عمدته شرحاه على المختصر والمنهاج مع زيادات من نحو مئة مصنف",
+   "sample": true,
+   "createdAt": 1792670400000
+  }
+ ]
+}
