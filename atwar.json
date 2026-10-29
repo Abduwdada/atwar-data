@@ -1,467 +1,1162 @@
 {
  "app": "atwar",
  "version": 1,
- "exportedAt": "2026-10-22T14:53:36.668Z",
+ "exportedAt": "2026-10-29T22:07:18.276Z",
  "sciences": [
+  {
+   "id": "35f687bb-bf3a-408a-b77a-af461aec1721",
+   "name": "النحو",
+   "createdAt": 1793144578420,
+   "order": 2
+  },
+  {
+   "id": "612f5504-a38c-47ca-b266-3b0140d958e5",
+   "name": "الفقه الشافعي",
+   "createdAt": 1793144607656,
+   "order": 1
+  },
+  {
+   "id": "64a75314-4a04-4f18-b304-95e3ce71ae86",
+   "name": "الصرف",
+   "createdAt": 1793144592562,
+   "order": 3
+  },
   {
    "id": "usul",
    "name": "أصول الفقه",
-   "createdAt": 1792670400000
+   "createdAt": 1792670400000,
+   "lists": {
+    "schools": [
+     "حنفي",
+     "مالكي",
+     "شافعي",
+     "حنبلي",
+     "مستقل",
+     "معتزلي",
+     "ظاهري"
+    ],
+    "kinds": [
+     "أصل",
+     "متن",
+     "شرح",
+     "حاشية",
+     "ملخص",
+     "مختصر",
+     "نظم",
+     "تقريرات",
+     "مسائل مستخرجة من كتاب",
+     "جمع لمسائل من عدة كتب"
+    ],
+    "roles": [
+     "تحقيق",
+     "دراسة وتحقيق",
+     "اعتنى به",
+     "ضبطه وصححه",
+     "علّق عليه",
+     "خرّج أحاديثه",
+     "راجعه",
+     "قدّم له",
+     "جمع ودراسة وتوثيق"
+    ]
+   },
+   "thresholds": {
+    "verbatim": 0.95,
+    "cover": 0.8,
+    "substitute": 0.8,
+    "adapt": 0.6,
+    "influence": 0.3
+   },
+   "order": 0,
+   "baseKinds": [
+    "شرح",
+    "حاشية",
+    "مختصر",
+    "نظم",
+    "تقريرات",
+    "ملخص",
+    "مسائل مستخرجة من كتاب"
+   ],
+   "treeBendsH": {
+    "l:47cdffbf-4204-410b-801b-28568b2dffc2": {
+     "x": 34,
+     "y": 147
+    },
+    "l:0e52ccce-d108-4d00-bf89-cd00c75802fc": {
+     "x": -14,
+     "y": 104
+    },
+    "l:eb6a2eac-04f4-4449-a3ee-f0da65aeffdf": {
+     "x": 243,
+     "y": 177
+    },
+    "l:797f912f-88f8-4ba9-a32b-4c84e54b120a": {
+     "x": 132,
+     "y": -23
+    },
+    "l:894de822-a6f1-4982-a3e5-8a9cbbef21c8": {
+     "x": 190,
+     "y": 139
+    }
+   },
+   "treeLayoutH": {
+    "b9ef41b1-7a43-4672-8ec6-88369eeb05b9": {
+     "x": -716,
+     "y": 118
+    },
+    "f20df2f6-8d1a-4966-9cba-dff48c28666e": {
+     "x": -3238,
+     "y": 129
+    }
+   }
   }
  ],
+ "groups": [],
  "books": [
   {
-   "id": "sample-mutamad",
+   "id": "09da5ece-b763-40bc-82c7-7d855cc391e9",
    "scienceId": "usul",
-   "title": "المعتمد",
-   "author": "أبو الحسين البصري",
-   "death": 436,
-   "school": "حنفي معتزلي",
+   "createdAt": 1793303075470,
+   "title": "البرهان في أصول الفقه",
+   "author": "إمام الحرمين أبو المعالي عبد الملك بن عبد الله بن يوسف الجويني",
+   "authorId": "8016986e-269c-478a-82c3-6b56ddd1e2d1",
+   "death": 478,
+   "school": "شافعي",
    "kind": "أصل",
-   "sample": true,
-   "createdAt": 1792670400000
+   "editorRole": "تحقيق",
+   "editor": "د. عبد العظيم محمود الديب",
+   "editionNo": "الخامسة",
+   "printYear": "١٤٣٣ هـ / ٢٠١٢ م",
+   "publishers": [
+    {
+     "name": "دار الوفاء للطباعة والنشر والتوزيع",
+     "place": "المنصورة"
+    }
+   ]
   },
   {
-   "id": "sample-waraqat",
+   "id": "0aa73261-26ae-4fa5-bdd0-4d7ba0f67729",
    "scienceId": "usul",
+   "createdAt": 1793172905156,
+   "title": "عون الولي شرح رسالة العكبري في أصول الفقه",
+   "author": "عاطف شمس",
+   "authorId": "9980cf4c-7670-41cd-8ea4-e9c75f2c3e68",
+   "death": 1435,
+   "written": 1435,
+   "writtenG": 2014,
+   "kind": "شرح",
+   "publisher": "مكتبة أولاد الشيخ للتراث",
+   "place": "القاهرة",
+   "editionNo": "الأولى",
+   "printYear": "٢٠١٥ م",
+   "alive": true
+  },
+  {
+   "id": "1ee0f04a-c6e7-409a-a481-79e01f118878",
+   "scienceId": "usul",
+   "createdAt": 1793299338314,
+   "title": "إحكام الفصول في أحكام الأصول",
+   "author": "أبو الوليد الباجي",
+   "authorId": "0109bd33-f46b-4df6-a772-ceb257cfa802",
+   "death": 474,
+   "deathG": 1081,
+   "school": "مالكي",
+   "kind": "أصل",
+   "editorRole": "تحقيق",
+   "editor": "عبد المجيد تركي",
+   "editionNo": "الثالثة (سحب جديد)",
+   "printYear": "١٤٢٩ هـ / ٢٠٠٨ م",
+   "publishers": [
+    {
+     "name": "دار الغرب الإسلامي",
+     "place": "تونس"
+    }
+   ]
+  },
+  {
+   "id": "2756708c-b8e2-43bb-8d0d-7d5cbc64f1a3",
+   "scienceId": "usul",
+   "createdAt": 1793298666011,
+   "title": "العدة في أصول الفقه",
+   "author": "القاضي أبو يعلى محمد بن الحسين الفرَّاء البغدادي الحنبلي",
+   "authorId": "cceff0c8-41c4-47bf-b0f6-eba6b4443255",
+   "death": 458,
+   "school": "حنبلي",
+   "kind": "أصل",
+   "editorRole": "تحقيق",
+   "editor": "أ.د. أحمد بن علي سير المباركي",
+   "editionNo": "الرابعة",
+   "printYear": "١٤٣٢ هـ / ٢٠١١ م",
+   "publishers": [
+    {
+     "name": "دار العزة للنشر والتوزيع",
+     "place": "الرياض"
+    }
+   ]
+  },
+  {
+   "id": "2a704f6e-370c-4b80-b089-bf3f7ddc3b84",
+   "scienceId": "usul",
+   "createdAt": 1793299706828,
+   "title": "اللمع في أصول الفقه",
+   "author": "الإمام أبو إسحاق إبراهيم بن علي الشيرازي",
+   "authorId": "5cebae34-a130-484b-a888-0b97eb0c2708",
+   "death": 476,
+   "school": "شافعي",
+   "kind": "أصل",
+   "editorRole": "تحقيق",
+   "editor": "محيي الدين ديب مستو، يوسف علي بديوي",
+   "editionNo": "السادسة",
+   "printYear": "١٤٣٥ هـ / ٢٠١٤ م",
+   "publishers": [
+    {
+     "name": "دار ابن كثير للطباعة والنشر والتوزيع",
+     "place": "بيروت"
+    }
+   ]
+  },
+  {
+   "id": "3867e94f-216d-4263-8f2e-ec395d983a9b",
+   "scienceId": "usul",
+   "createdAt": 1793169561755,
+   "title": "المقدمة في الأصول",
+   "author": "الإمام أبو الحسن علي بن عمر بن القصار المالكي",
+   "authorId": "c1482769-ea59-485e-baea-00279f297da0",
+   "death": 397,
+   "writtenNote": "طبع مع ملاحق نادرة في أصول الفقه المالكي",
+   "school": "مالكي",
+   "kind": "أصل",
+   "editor": "محمد بن الحسين السليماني",
+   "publisher": "دار الغرب الإسلامي",
+   "place": "تونس",
+   "editionNo": "الثانية",
+   "printYear": "٢٠١٤ م"
+  },
+  {
+   "id": "48057e85-8947-4205-abfd-0ef652a957cf",
+   "scienceId": "usul",
+   "createdAt": 1793304427848,
+   "title": "نظم الورقات",
+   "author": "يحيى بن نور الدين بن موسى الشافعي",
+   "authorId": "164f2b68-864f-4adc-a1e5-3a34a3059751",
+   "death": 989,
+   "school": "شافعي",
+   "kind": "نظم",
+   "editionNo": "الأولى",
+   "printYear": "١٤٢٢ هـ / ٢٠٠٢ م",
+   "publishers": [
+    {
+     "name": "دار ابن حزم للطباعة والنشر والتوزيع",
+     "place": "بيروت"
+    }
+   ]
+  },
+  {
+   "id": "4a160193-7d12-465d-b21e-d0f5d7519e99",
+   "scienceId": "usul",
+   "createdAt": 1793304836767,
+   "title": "شرح الورقات في أصول الفقه",
+   "author": "المحقق العلامة سعد الدين مسعود بن عمر التفتازاني",
+   "authorId": "8af1e4f0-4be7-441d-8655-908ccf99aab2",
+   "death": 792,
+   "school": "حنفي",
+   "kind": "شرح",
+   "editorRole": "تحقيق",
+   "editor": "حاتم بن يوسف المالكي",
+   "editionNo": "الأولى",
+   "printYear": "١٤٤٠ هـ / ٢٠١٩ م",
+   "publishers": [
+    {
+     "name": "دار الضياء للنشر والتوزيع",
+     "place": "الكويت"
+    }
+   ]
+  },
+  {
+   "id": "526c2231-e38a-4204-839b-0bf48ce5ab0a",
+   "scienceId": "usul",
+   "createdAt": 1793171419750,
+   "title": "مسائل مرسومة في إجماع أهل المدينة",
+   "author": "القاضي أبو علي الحسين ابن عتيق بن رشيق الربعي المالكي",
+   "authorId": "0f7f52b1-a08b-4014-9b3a-3b10bea8e64f",
+   "death": 632,
+   "writtenNote": "ملحق ضمن المقدمة في الأصول لابن القصار",
+   "school": "مالكي",
+   "kind": "أصل",
+   "editor": "محمد بن الحسين السليماني",
+   "publisher": "دار الغرب الإسلامي",
+   "place": "تونس",
+   "editionNo": "الثانية",
+   "printYear": "٢٠١٤ م"
+  },
+  {
+   "id": "585278d9-bbeb-4f57-aa36-78ee141c6672",
+   "scienceId": "usul",
+   "createdAt": 1793171310679,
+   "title": "إجماع أهل المدينة",
+   "author": "الإمام علي بن إسماعيل الأبياري",
+   "authorId": "6d493bb8-3c54-4d2c-bc48-abf4037fb67d",
+   "death": 618,
+   "writtenNote": "ملحق ضمن المقدمة في الأصول لابن القصار",
+   "school": "مالكي",
+   "kind": "أصل",
+   "editor": "محمد بن الحسين السليماني",
+   "publisher": "دار الغرب الإسلامي",
+   "place": "تونس",
+   "editionNo": "الثانية",
+   "printYear": "٢٠١٤ م"
+  },
+  {
+   "id": "5a0b11cc-f71c-4b36-be91-1418e2bf16e4",
+   "scienceId": "usul",
+   "createdAt": 1793172370687,
+   "title": "رسالة العكبري في أصول الفقه",
+   "author": "العلامة أبو علي الحسن بن شهاب بن الحسن العُكْبَري الحنبلي",
+   "authorId": "9576a10e-6afc-4630-bb6f-5ddabddf934e",
+   "death": 428,
+   "school": "حنبلي",
+   "kind": "أصل",
+   "editor": "بدر بن ناصر بن مِشرِع السُّبيعي",
+   "editionNo": "الأولى",
+   "printYear": "١٤٣٨ هـ / ٢٠١٧ م",
+   "editorRole": "تحقيق",
+   "publishers": [
+    {
+     "name": "أروقة للدراسات والنشر",
+     "place": "عمَّان"
+    },
+    {
+     "name": "لطائف لنشر الكتب والرسائل العلمية",
+     "place": "الكويت"
+    }
+   ]
+  },
+  {
+   "id": "71c4d888-725b-4efe-9c42-e784d506cdc2",
+   "scienceId": "usul",
+   "createdAt": 1793171527368,
+   "title": "عمل أهل المدينة",
+   "author": "الإمام أبو العباس أحمد بن إدريس الصنهاجي المعروف بالقرافي",
+   "authorId": "9f95c19e-c494-44ff-ad58-26a8fa0fbb65",
+   "death": 684,
+   "writtenNote": "ملحق ضمن المقدمة في الأصول لابن القصار",
+   "school": "مالكي",
+   "kind": "أصل",
+   "editor": "محمد بن الحسين السليماني",
+   "publisher": "دار الغرب الإسلامي",
+   "place": "تونس",
+   "editionNo": "الثانية",
+   "printYear": "٢٠١٤ م"
+  },
+  {
+   "id": "7201350d-e2f0-478d-8a52-5792e8606644",
+   "scienceId": "usul",
+   "createdAt": 1793169135357,
+   "title": "التقريب والإرشاد (الصغير)",
+   "author": "القاضي أبو بكر محمد بن الطيب الباقلاني",
+   "authorId": "7bde9774-da23-4366-8800-b76c7eaa717b",
+   "death": 403,
+   "school": "مالكي",
+   "kind": "أصل",
+   "editor": "د. عبد الحميد بن علي أبو زنيد",
+   "publisher": "مؤسسة الرسالة للطباعة والنشر والتوزيع",
+   "place": "بيروت",
+   "editionNo": "الثانية",
+   "printYear": "١٤١٨ هـ / ١٩٩٨ م"
+  },
+  {
+   "id": "7403e440-909a-4a57-8365-068ddeeab522",
+   "scienceId": "usul",
+   "createdAt": 1793171141212,
+   "title": "فصول مختارة في أصول الفقه",
+   "author": "القاضي عبد الوهاب بن علي بن نصر البغدادي المالكي",
+   "authorId": "3c27302d-5bd5-479a-96db-34c18e96a565",
+   "death": 422,
+   "writtenNote": "ملحق ضمن المقدمة في الأصول لابن القصار",
+   "school": "مالكي",
+   "kind": "مسائل مستخرجة من كتاب",
+   "editor": "محمد بن الحسين السليماني",
+   "publisher": "دار الغرب الإسلامي",
+   "place": "تونس",
+   "editionNo": "الثانية",
+   "printYear": "٢٠١٤ م"
+  },
+  {
+   "id": "769c399b-2f3b-4320-85ce-44dc3aa06d47",
+   "scienceId": "usul",
+   "createdAt": 1793170997612,
+   "title": "الإجماع",
+   "author": "القاضي عبد الوهاب بن علي بن نصر البغدادي المالكي",
+   "authorId": "3c27302d-5bd5-479a-96db-34c18e96a565",
+   "death": 422,
+   "writtenNote": "ملحق ضمن المقدمة في الأصول لابن القصار",
+   "school": "مالكي",
+   "kind": "أصل",
+   "editor": "محمد بن الحسين السليماني",
+   "publisher": "دار الغرب الإسلامي",
+   "place": "تونس",
+   "editionNo": "الثانية",
+   "printYear": "٢٠١٤ م"
+  },
+  {
+   "id": "8cba881d-d83f-43bc-bb27-26ce5c0c06b8",
+   "scienceId": "usul",
+   "createdAt": 1793304185965,
    "title": "الورقات",
-   "author": "إمام الحرمين الجويني",
+   "author": "إمام الحرمين أبو المعالي عبد الملك بن عبد الله بن يوسف الجويني",
+   "authorId": "8016986e-269c-478a-82c3-6b56ddd1e2d1",
    "death": 478,
    "school": "شافعي",
    "kind": "متن",
-   "sample": true,
-   "createdAt": 1792670400000
+   "editionNo": "الأولى",
+   "printYear": "١٤٢٦ هـ / ٢٠٠٥ م",
+   "publishers": [
+    {
+     "name": "دار الأخيار للنشر والتوزيع",
+     "place": "الرياض"
+    }
+   ]
   },
   {
-   "id": "sample-mustasfa",
+   "id": "910dad79-f3b6-476a-8251-8eb28286a207",
    "scienceId": "usul",
-   "title": "المستصفى",
-   "author": "أبو حامد الغزالي",
-   "death": 505,
-   "school": "شافعي",
-   "kind": "أصل",
-   "sample": true,
-   "createdAt": 1792670400000
-  },
-  {
-   "id": "sample-mahsul",
-   "scienceId": "usul",
-   "title": "المحصول",
-   "author": "فخر الدين الرازي",
-   "death": 606,
-   "school": "شافعي",
-   "kind": "أصل",
-   "sample": true,
-   "createdAt": 1792670400000
-  },
-  {
-   "id": "sample-ihkam",
-   "scienceId": "usul",
-   "title": "الإحكام",
-   "author": "سيف الدين الآمدي",
-   "death": 631,
-   "school": "شافعي",
-   "kind": "أصل",
-   "sample": true,
-   "createdAt": 1792670400000
-  },
-  {
-   "id": "sample-mukhtasar",
-   "scienceId": "usul",
-   "title": "مختصر المنتهى",
-   "author": "ابن الحاجب",
-   "death": 646,
+   "createdAt": 1793303956743,
+   "title": "الكفيل بالوصول إلى ثمرات الأصول",
+   "subtitle": "مختصر برهان الجويني",
+   "author": "ناصر الدين ابن المنير أحمد بن محمد بن منصور الاسكندراني المالكي",
+   "authorId": "b725b126-0014-4dee-84f4-6faf134eba7d",
+   "death": 683,
    "school": "مالكي",
    "kind": "مختصر",
-   "sample": true,
-   "createdAt": 1792670400000
+   "editorRole": "تحقيق",
+   "editor": "مقصد فِكْرَت أوغلو كريموف، مراجعة: إبراهيم بن صالح الخزي",
+   "editionNo": "الأولى",
+   "printYear": "١٤٤٢ هـ / ٢٠٢١ م",
+   "publishers": [
+    {
+     "name": "أسفار لنشر نفيس الكتب والرسائل العلمية",
+     "place": "الكويت"
+    },
+    {
+     "name": "مكتبة الإمام الذهبي للنشر والتوزيع",
+     "place": "الكويت"
+    }
+   ]
   },
   {
-   "id": "sample-hasil",
+   "id": "9690916c-8a12-4008-825b-c70feda3fc2d",
    "scienceId": "usul",
-   "title": "الحاصل",
-   "author": "تاج الدين الأرموي",
-   "death": 653,
+   "createdAt": 1793140293575,
+   "title": "الرسالة",
+   "author": "أبو عبد الله محمد بن إدريس بن العباس المطلبي الشافعي",
+   "death": 204,
    "school": "شافعي",
-   "kind": "مختصر",
-   "sample": true,
-   "createdAt": 1792670400000
-  },
-  {
-   "id": "sample-minhaj",
-   "scienceId": "usul",
-   "title": "منهاج الوصول",
-   "author": "ناصر الدين البيضاوي",
-   "death": 685,
-   "school": "شافعي",
-   "kind": "متن",
-   "deathNote": "وقيل ٦٩١هـ",
-   "sample": true,
-   "createdAt": 1792670400000
-  },
-  {
-   "id": "sample-jam",
-   "scienceId": "usul",
-   "title": "جمع الجوامع",
-   "author": "تاج الدين السبكي",
-   "death": 771,
-   "school": "شافعي",
-   "kind": "متن",
-   "sample": true,
-   "createdAt": 1792670400000
-  },
-  {
-   "id": "sample-irshad",
-   "scienceId": "usul",
-   "title": "إرشاد الفحول",
-   "author": "محمد بن علي الشوكاني",
-   "death": 1250,
-   "school": "مستقل",
    "kind": "أصل",
-   "sample": true,
-   "createdAt": 1792670400000
+   "authorId": "9e9c6871-74c4-4dc6-9b68-f94085999d10",
+   "publisher": "دار المنهاج للنشر والتوزيع",
+   "place": "بيروت",
+   "editionNo": "الأولى",
+   "printYear": "١٤٣٥ هـ / ٢٠١٤م"
+  },
+  {
+   "id": "9bb67a1c-29c6-4948-9a4f-3a005c56f6da",
+   "scienceId": "usul",
+   "createdAt": 1793173995558,
+   "title": "تأسيس النظر",
+   "author": "الإمام أبو زيد عبيد الله عمر بن عيسى الدبوسي الحنفي",
+   "authorId": "d88f8ac9-08c6-47d7-9733-61efdbd3a8cc",
+   "death": 430,
+   "deathNote": "وقيل: ٤٣٢ هـ",
+   "writtenNote": "يتضمن فيه رسالة الإمام أبي الحسن الكرخي في الأصول",
+   "school": "حنفي",
+   "kind": "أصل",
+   "editorRole": "تحقيق",
+   "editor": "مصطفى محمد القبَّاني الدمشقي",
+   "publishers": [
+    {
+     "name": "المكتبة الأزهرية للتراث",
+     "place": "القاهرة"
+    },
+    {
+     "name": "الجزيرة للنشر والتوزيع",
+     "place": "القاهرة"
+    }
+   ]
+  },
+  {
+   "id": "ab42d993-460e-4d50-83c3-daf73fd47283",
+   "scienceId": "usul",
+   "createdAt": 1793303544665,
+   "title": "إيضاح المحصول من برهان الأصول",
+   "author": "أبو عبد الله محمد بن علي بن عمر بن محمد التميمي المازري",
+   "authorId": "2b7ead0a-c4fc-4eb8-a622-b4edafd31309",
+   "death": 536,
+   "school": "مالكي",
+   "kind": "شرح",
+   "editorRole": "تحقيق",
+   "editor": "أ.د. عمار الطالبي",
+   "editionNo": "الثانية (سحب جديد)",
+   "printYear": "٢٠٠٨ م",
+   "publishers": [
+    {
+     "name": "دار الغرب الإسلامي",
+     "place": "تونس"
+    }
+   ]
+  },
+  {
+   "id": "b49b0f25-c83f-41d1-babd-cbc8a9d33ff6",
+   "scienceId": "usul",
+   "createdAt": 1793170214315,
+   "title": "مقدمة كتاب الانتصار لأهل المدينة",
+   "author": "أبو عبد الله محمد بن عمر الأندلسي المعروف بابن الفخَّار",
+   "authorId": "da753cb3-bb50-4a5a-a988-74a5d495b33f",
+   "death": 419,
+   "writtenNote": "ملحق ضمن المقدمة في الأصول لابن القصار",
+   "school": "مالكي",
+   "kind": "مسائل مستخرجة من كتاب",
+   "editor": "محمد بن الحسين السليماني",
+   "publisher": "دار الغرب الإسلامي",
+   "place": "تونس",
+   "editionNo": "الثانية",
+   "printYear": "٢٠١٤ م"
+  },
+  {
+   "id": "b9ef41b1-7a43-4672-8ec6-88369eeb05b9",
+   "scienceId": "usul",
+   "title": "التقريب والإرشاد",
+   "author": "القاضي أبو بكر محمد بن الطيب الباقلاني",
+   "authorId": "7bde9774-da23-4366-8800-b76c7eaa717b",
+   "death": 403,
+   "lost": true,
+   "createdAt": 1793302696858
+  },
+  {
+   "id": "b9f09c68-6833-4627-b1ba-76fd42352d43",
+   "scienceId": "usul",
+   "createdAt": 1793170618060,
+   "title": "المقدمة في الأصول",
+   "author": "القاضي عبد الوهاب بن علي بن نصر البغدادي المالكي",
+   "authorId": "3c27302d-5bd5-479a-96db-34c18e96a565",
+   "death": 422,
+   "writtenNote": "ملحق ضمن المقدمة في الأصول لابن القصار",
+   "school": "مالكي",
+   "kind": "أصل",
+   "editor": "محمد بن الحسين السليماني",
+   "publisher": "دار الغرب الإسلامي",
+   "place": "تونس",
+   "editionNo": "الثانية",
+   "printYear": "٢٠١٤ م"
+  },
+  {
+   "id": "c96f6fb1-0e83-481a-96b4-1988cb6e6724",
+   "scienceId": "usul",
+   "createdAt": 1793174226758,
+   "title": "رسالة الإمام أبي الحسن الكرخي في الأصول",
+   "author": "الإمام أبو الحسن الكرخي",
+   "authorId": "909e8ab2-8138-4a75-9314-e6d95af57c60",
+   "death": 340,
+   "writtenNote": "مضمن ضمن كتاب تأسيس النظر للدبوسي",
+   "school": "حنفي",
+   "kind": "أصل",
+   "editorRole": "تحقيق",
+   "editor": "مصطفى محمد القبَّاني الدمشقي",
+   "publishers": [
+    {
+     "name": "المكتبة الأزهرية للتراث",
+     "place": "القاهرة"
+    },
+    {
+     "name": "الجزيرة للنشر والتوزيع",
+     "place": "القاهرة"
+    }
+   ]
+  },
+  {
+   "id": "d1198022-9c3f-4466-9d4b-550dd4c49bba",
+   "scienceId": "usul",
+   "createdAt": 1793173398604,
+   "title": "شرح رسالة في أصول الفقه للحسن بن شهاب العكبري",
+   "author": "د. سعد بن ناصر بن عبد العزيز الشثري",
+   "authorId": "d1ee0336-0703-4c96-925d-1d08e64d4e5a",
+   "death": 1427,
+   "written": 1427,
+   "editor": "اعتنى به: عبد الناصر بن عبد القادر البشبيشي",
+   "publisher": "دار كنوز إشبيليا للنشر والتوزيع",
+   "place": "الرياض",
+   "editionNo": "الثانية",
+   "printYear": "١٤٣٢ هـ / ٢٠١١ م",
+   "alive": true
+  },
+  {
+   "id": "d1abccbf-815d-4e91-a81f-2cd6ae3de8f8",
+   "scienceId": "usul",
+   "createdAt": 1793296809795,
+   "title": "فصول في علم الاصول",
+   "author": "الإمام أبو الحسن علي بن محمد البصري الماوردي",
+   "authorId": "7c196ca5-ca78-4785-92bd-629cb020fb55",
+   "death": 450,
+   "school": "شافعي",
+   "kind": "جمع لمسائل من عدة كتب",
+   "editorRole": "جمع ودراسة وتوثيق",
+   "editor": "الحسين مهداوي",
+   "editionNo": "الأولى",
+   "printYear": "٢٠٢١ م",
+   "publishers": [
+    {
+     "name": "دار النور المبين للنشر والتوزيع",
+     "place": "عمَّان"
+    }
+   ]
+  },
+  {
+   "id": "dabf930e-506b-4850-a52f-db5a59754028",
+   "scienceId": "usul",
+   "createdAt": 1793170839646,
+   "title": "مسائل في أصول الفقه مستخرجة من كتاب \"المعونة على مذهب عالم المدينة",
+   "author": "القاضي عبد الوهاب بن علي بن نصر البغدادي المالكي",
+   "authorId": "3c27302d-5bd5-479a-96db-34c18e96a565",
+   "death": 422,
+   "writtenNote": "ملحق ضمن المقدمة في الأصول لابن القصار",
+   "school": "مالكي",
+   "kind": "مسائل مستخرجة من كتاب",
+   "editor": "محمد بن الحسين السليماني",
+   "publisher": "دار الغرب الإسلامي",
+   "place": "تونس",
+   "editionNo": "الثانية",
+   "printYear": "٢٠١٤ م"
+  },
+  {
+   "id": "dd13deb5-2563-469d-a5d4-c5f8bfcd9d3f",
+   "scienceId": "usul",
+   "createdAt": 1793170929495,
+   "title": "إجماع أهل المدينة من كتاب \"الملخص\"",
+   "author": "القاضي عبد الوهاب بن علي بن نصر البغدادي المالكي",
+   "authorId": "3c27302d-5bd5-479a-96db-34c18e96a565",
+   "death": 422,
+   "writtenNote": "ملحق ضمن المقدمة في الأصول لابن القصار",
+   "school": "مالكي",
+   "kind": "مسائل مستخرجة من كتاب",
+   "editor": "محمد بن الحسين السليماني",
+   "publisher": "دار الغرب الإسلامي",
+   "place": "تونس",
+   "editionNo": "الثانية",
+   "printYear": "٢٠١٤ م"
+  },
+  {
+   "id": "ec395d9f-bcab-4fa3-9aea-8bb282e33204",
+   "scienceId": "usul",
+   "createdAt": 1793297314190,
+   "title": "الإحكام في أصول الأحكام",
+   "author": "الحافظ أبو محمد علي بن حزم الأندلسي الظاهري",
+   "authorId": "97096492-303c-411c-aa86-bac8806d7342",
+   "death": 457,
+   "school": "ظاهري",
+   "kind": "أصل",
+   "editorRole": "تحقيق",
+   "editor": "أحمد محمد شاكر",
+   "editionNo": "الأولى",
+   "printYear": "١٤٢٩ هـ / ٢٠٠٨ م",
+   "publishers": [
+    {
+     "name": "مكتبة الإمام البخاري للنشر والتوزيع",
+     "place": "القاهرة"
+    }
+   ]
+  },
+  {
+   "id": "ef2eb774-6d3d-47fe-a8af-e14e5345ac1a",
+   "scienceId": "usul",
+   "createdAt": 1793300311165,
+   "title": "شرح اللمع",
+   "author": "الإمام أبو إسحاق إبراهيم بن علي الشيرازي",
+   "authorId": "5cebae34-a130-484b-a888-0b97eb0c2708",
+   "death": 476,
+   "school": "شافعي",
+   "kind": "شرح",
+   "editorRole": "تحقيق",
+   "editor": "عبد المجيد تركي",
+   "editionNo": "الثالثة",
+   "printYear": "١٤٣٧ هـ / ٢٠١٦ م",
+   "publishers": [
+    {
+     "name": "دار الغرب الإسلامي",
+     "place": "تونس"
+    }
+   ]
+  },
+  {
+   "id": "f20df2f6-8d1a-4966-9cba-dff48c28666e",
+   "scienceId": "usul",
+   "createdAt": 1793302696844,
+   "title": "التلخيص في أصول الفقه",
+   "author": "إمام الحرمين أبو المعالي عبد الملك بن عبد الله بن يوسف الجويني",
+   "authorId": "8016986e-269c-478a-82c3-6b56ddd1e2d1",
+   "death": 478,
+   "school": "شافعي",
+   "kind": "ملخص",
+   "editorRole": "تحقيق",
+   "editor": "د. عبد الله جولم النيبالي، شبير أحمد العمري",
+   "editionNo": "الأولى",
+   "printYear": "١٤١٧ هـ / ١٩٩٦ م",
+   "publishers": [
+    {
+     "name": "دار البشائر الإسلامية",
+     "place": "بيروت"
+    },
+    {
+     "name": "مكتبة دار الباز",
+     "place": "مكة المكرمة"
+    }
+   ]
+  },
+  {
+   "id": "f446d57f-ca36-4ed7-95d5-f1eda05d9e43",
+   "scienceId": "usul",
+   "createdAt": 1793174605361,
+   "title": "المعتمد في أصول الفقه",
+   "author": "أبو الحسين محمد بن علي بن الطيب البصري المعتزلي",
+   "authorId": "da49ffe2-f27a-47aa-997d-baec14df5151",
+   "death": 436,
+   "school": "معتزلي",
+   "kind": "أصل",
+   "editor": "محمد حميد الله، بتعاون: محمد بكر، وحسن حنفي",
+   "publisher": "المعهد العلمي الفرنسي للدراسات العربية",
+   "place": "دمشق",
+   "printYear": "١٣٨٤ هـ / ١٩٦٤ م"
+  },
+  {
+   "id": "f510ff1d-bc71-490b-8ed7-b18f24f58399",
+   "scienceId": "usul",
+   "createdAt": 1793298452507,
+   "title": "النُّبذ في أصول الفقه الظاهري",
+   "author": "الحافظ أبو محمد علي بن حزم الأندلسي الظاهري",
+   "authorId": "97096492-303c-411c-aa86-bac8806d7342",
+   "death": 457,
+   "school": "ظاهري",
+   "kind": "أصل",
+   "editorRole": "تحقيق",
+   "editor": "محمد زاهد بن الحسن الكوثري",
+   "editionNo": "الأولى",
+   "printYear": "١٤٣١ هـ / ٢٠١٠ م",
+   "publishers": [
+    {
+     "name": "مكتبة الخانجي",
+     "place": "القاهرة"
+    },
+    {
+     "name": "الشركة الدولية للطباعة",
+     "place": "القاهرة"
+    }
+   ]
+  },
+  {
+   "id": "f78543d3-69b8-42c4-9e9c-c74a047ac367",
+   "scienceId": "usul",
+   "createdAt": 1793169934276,
+   "title": "مقدمة في الأصول مستلة من كتاب \"التوسط بين مالك وابن القاسم في المسائل التي اختلفا فيها من مسائل المدونة\"",
+   "author": "الفقيه أبو عبيد القاسم بن خلف الجبيري المالكي",
+   "authorId": "56f0a707-4cdf-440f-9fbd-3bba65d66387",
+   "death": 378,
+   "writtenNote": "ملحق ضمن المقدمة في الأصول لابن القصار",
+   "school": "مالكي",
+   "kind": "مسائل مستخرجة من كتاب",
+   "editor": "محمد بن الحسين السليماني",
+   "publisher": "دار الغرب الإسلامي",
+   "place": "تونس",
+   "editionNo": "الثانية",
+   "printYear": "٢٠١٤ م"
   }
  ],
  "issues": [
   {
-   "id": "sample-usul",
+   "id": "0e72d240-39a5-46c2-843e-fced673e9e3c",
    "scienceId": "usul",
-   "name": "تعريف أصول الفقه",
-   "section": "المقدمات",
-   "sample": true,
-   "createdAt": 1792670400000
+   "name": "شروط المستفتي",
+   "createdAt": 1793306480364
   },
   {
-   "id": "sample-hukm",
+   "id": "23dafd17-aba3-4e14-a222-fdb0ad0fbec9",
    "scienceId": "usul",
-   "name": "تعريف الحكم الشرعي",
-   "section": "الحكم الشرعي",
-   "sample": true,
-   "createdAt": 1792670400001
+   "name": "الأفعال",
+   "createdAt": 1793306480355
   },
   {
-   "id": "sample-wajib",
+   "id": "25b9f355-5d08-4a13-8aa8-badc0dabfbe8",
    "scienceId": "usul",
-   "name": "تعريف الواجب",
-   "section": "الحكم التكليفي",
-   "sample": true,
-   "createdAt": 1792670400002
+   "name": "الأمر",
+   "createdAt": 1793306480354
+  },
+  {
+   "id": "444d31b4-44a8-4bf3-9ac4-95e57cdf1838",
+   "scienceId": "usul",
+   "name": "الاجتهاد",
+   "createdAt": 1793306480365
+  },
+  {
+   "id": "4891f8f2-f328-42bd-815c-1498361d664f",
+   "scienceId": "usul",
+   "name": "القياس",
+   "createdAt": 1793306480359
+  },
+  {
+   "id": "493071b0-4f41-47cf-8ab4-d24e1086d76f",
+   "scienceId": "usul",
+   "name": "النسخ",
+   "createdAt": 1793306480356
+  },
+  {
+   "id": "74690233-2ddd-4171-a0e8-c22e83a3ea17",
+   "scienceId": "usul",
+   "name": "الإجماع",
+   "createdAt": 1793306480358
+  },
+  {
+   "id": "8b640e06-ba55-4478-b2ab-f12872cb7940",
+   "scienceId": "usul",
+   "name": "ترتيب الآأدله",
+   "createdAt": 1793306480362
+  },
+  {
+   "id": "8d70a6b8-b2a4-49f5-87ea-2b3b0a7faf88",
+   "scienceId": "usul",
+   "name": "التعارض",
+   "createdAt": 1793306480357
+  },
+  {
+   "id": "a25d3ce1-aef5-476f-878a-5576fc218306",
+   "scienceId": "usul",
+   "name": "الاستصحاب",
+   "createdAt": 1793306480360
+  },
+  {
+   "id": "db50faf1-e1ca-4b35-87a1-bcacb438d2e3",
+   "scienceId": "usul",
+   "name": "الترجيح",
+   "createdAt": 1793306480361
+  },
+  {
+   "id": "f16feb72-3341-4228-965b-9f7eaeff702d",
+   "scienceId": "usul",
+   "name": "شروط المفتي",
+   "createdAt": 1793306480363
   }
  ],
- "passages": [
-  {
-   "id": "sample-usul-mutamad",
-   "scienceId": "usul",
-   "issueId": "sample-usul",
-   "bookId": "sample-mutamad",
-   "lead": "أصول الفقه هي",
-   "body": "طرق الفقه على طريق الإجمال، وكيفية الاستدلال بها، وما يتبع كيفية الاستدلال بها",
-   "sample": true,
-   "createdAt": 1792670400000,
-   "updatedAt": 1792670400000
-  },
-  {
-   "id": "sample-usul-waraqat",
-   "scienceId": "usul",
-   "issueId": "sample-usul",
-   "bookId": "sample-waraqat",
-   "lead": "وأصول الفقه:",
-   "body": "طرقه على سبيل الإجمال، وكيفية الاستدلال بها",
-   "sample": true,
-   "createdAt": 1792670400001,
-   "updatedAt": 1792670400001
-  },
-  {
-   "id": "sample-usul-mustasfa",
-   "scienceId": "usul",
-   "issueId": "sample-usul",
-   "bookId": "sample-mustasfa",
-   "lead": "أصول الفقه عبارة عن",
-   "body": "أدلة هذه الأحكام، وعن معرفة وجوه دلالتها على الأحكام من حيث الجملة لا من حيث التفصيل",
-   "sample": true,
-   "createdAt": 1792670400002,
-   "updatedAt": 1792670400002
-  },
-  {
-   "id": "sample-usul-mahsul",
-   "scienceId": "usul",
-   "issueId": "sample-usul",
-   "bookId": "sample-mahsul",
-   "lead": "أصول الفقه عبارة عن",
-   "body": "مجموع طرق الفقه على سبيل الإجمال، وكيفية الاستدلال بها، وكيفية حال المستدل بها",
-   "sample": true,
-   "createdAt": 1792670400003,
-   "updatedAt": 1792670400003
-  },
-  {
-   "id": "sample-usul-ihkam",
-   "scienceId": "usul",
-   "issueId": "sample-usul",
-   "bookId": "sample-ihkam",
-   "lead": "أصول الفقه هي",
-   "body": "أدلة الفقه، وجهات دلالاتها على الأحكام الشرعية، وكيفية حال المستدل بها من جهة الجملة لا من جهة التفصيل",
-   "sample": true,
-   "createdAt": 1792670400004,
-   "updatedAt": 1792670400004
-  },
-  {
-   "id": "sample-usul-mukhtasar",
-   "scienceId": "usul",
-   "issueId": "sample-usul",
-   "bookId": "sample-mukhtasar",
-   "lead": "أصول الفقه:",
-   "body": "العلم بالقواعد التي يتوصل بها إلى استنباط الأحكام الشرعية الفرعية عن أدلتها التفصيلية",
-   "sample": true,
-   "createdAt": 1792670400005,
-   "updatedAt": 1792670400005
-  },
-  {
-   "id": "sample-usul-minhaj",
-   "scienceId": "usul",
-   "issueId": "sample-usul",
-   "bookId": "sample-minhaj",
-   "lead": "أصول الفقه:",
-   "body": "معرفة دلائل الفقه إجمالاً، وكيفية الاستفادة منها، وحال المستفيد",
-   "sample": true,
-   "createdAt": 1792670400006,
-   "updatedAt": 1792670400006
-  },
-  {
-   "id": "sample-usul-jam",
-   "scienceId": "usul",
-   "issueId": "sample-usul",
-   "bookId": "sample-jam",
-   "lead": "أصول الفقه:",
-   "body": "دلائل الفقه الإجمالية، وقيل: معرفتها",
-   "sample": true,
-   "createdAt": 1792670400007,
-   "updatedAt": 1792670400007
-  },
-  {
-   "id": "sample-usul-irshad",
-   "scienceId": "usul",
-   "issueId": "sample-usul",
-   "bookId": "sample-irshad",
-   "lead": "أصول الفقه:",
-   "body": "إدراك القواعد التي يتوصل بها إلى استنباط الأحكام الشرعية الفرعية عن أدلتها التفصيلية",
-   "sample": true,
-   "createdAt": 1792670400008,
-   "updatedAt": 1792670400008
-  },
-  {
-   "id": "sample-hukm-mustasfa",
-   "scienceId": "usul",
-   "issueId": "sample-hukm",
-   "bookId": "sample-mustasfa",
-   "lead": "الحكم عندنا عبارة عن",
-   "body": "خطاب الشرع إذا تعلق بأفعال المكلفين",
-   "sample": true,
-   "createdAt": 1792670400009,
-   "updatedAt": 1792670400009
-  },
-  {
-   "id": "sample-hukm-mahsul",
-   "scienceId": "usul",
-   "issueId": "sample-hukm",
-   "bookId": "sample-mahsul",
-   "lead": "الحكم:",
-   "body": "الخطاب المتعلق بأفعال المكلفين بالاقتضاء أو التخيير",
-   "sample": true,
-   "createdAt": 1792670400010,
-   "updatedAt": 1792670400010
-  },
-  {
-   "id": "sample-hukm-ihkam",
-   "scienceId": "usul",
-   "issueId": "sample-hukm",
-   "bookId": "sample-ihkam",
-   "lead": "الحكم الشرعي عبارة عن",
-   "body": "خطاب الشارع المفيد فائدة شرعية",
-   "sample": true,
-   "createdAt": 1792670400011,
-   "updatedAt": 1792670400011
-  },
-  {
-   "id": "sample-hukm-mukhtasar",
-   "scienceId": "usul",
-   "issueId": "sample-hukm",
-   "bookId": "sample-mukhtasar",
-   "lead": "الحكم:",
-   "body": "خطاب الله تعالى المتعلق بأفعال المكلفين بالاقتضاء أو التخيير أو الوضع",
-   "sample": true,
-   "createdAt": 1792670400012,
-   "updatedAt": 1792670400012
-  },
-  {
-   "id": "sample-hukm-minhaj",
-   "scienceId": "usul",
-   "issueId": "sample-hukm",
-   "bookId": "sample-minhaj",
-   "lead": "الحكم:",
-   "body": "خطاب الله تعالى المتعلق بأفعال المكلفين بالاقتضاء أو التخيير",
-   "sample": true,
-   "createdAt": 1792670400013,
-   "updatedAt": 1792670400013
-  },
-  {
-   "id": "sample-hukm-jam",
-   "scienceId": "usul",
-   "issueId": "sample-hukm",
-   "bookId": "sample-jam",
-   "lead": "الحكم:",
-   "body": "خطاب الله المتعلق بفعل المكلف من حيث إنه مكلف",
-   "sample": true,
-   "createdAt": 1792670400014,
-   "updatedAt": 1792670400014
-  },
-  {
-   "id": "sample-wajib-waraqat",
-   "scienceId": "usul",
-   "issueId": "sample-wajib",
-   "bookId": "sample-waraqat",
-   "lead": "فالواجب:",
-   "body": "ما يثاب على فعله ويعاقب على تركه",
-   "sample": true,
-   "createdAt": 1792670400015,
-   "updatedAt": 1792670400015
-  },
-  {
-   "id": "sample-wajib-mustasfa",
-   "scienceId": "usul",
-   "issueId": "sample-wajib",
-   "bookId": "sample-mustasfa",
-   "lead": "الواجب هو",
-   "body": "الذي يذم تاركه ويلام شرعاً بوجه ما",
-   "sample": true,
-   "createdAt": 1792670400016,
-   "updatedAt": 1792670400016
-  },
-  {
-   "id": "sample-wajib-mahsul",
-   "scienceId": "usul",
-   "issueId": "sample-wajib",
-   "bookId": "sample-mahsul",
-   "lead": "الواجب:",
-   "body": "ما يذم شرعاً تاركه قصداً مطلقاً",
-   "sample": true,
-   "createdAt": 1792670400017,
-   "updatedAt": 1792670400017
-  },
-  {
-   "id": "sample-wajib-ihkam",
-   "scienceId": "usul",
-   "issueId": "sample-wajib",
-   "bookId": "sample-ihkam",
-   "lead": "الواجب:",
-   "body": "ما ينتهض تركه سبباً للذم شرعاً في حالة ما",
-   "sample": true,
-   "createdAt": 1792670400018,
-   "updatedAt": 1792670400018
-  },
-  {
-   "id": "sample-wajib-mukhtasar",
-   "scienceId": "usul",
-   "issueId": "sample-wajib",
-   "bookId": "sample-mukhtasar",
-   "lead": "الواجب:",
-   "body": "ما يذم تاركه شرعاً بوجه ما",
-   "sample": true,
-   "createdAt": 1792670400019,
-   "updatedAt": 1792670400019
-  },
-  {
-   "id": "sample-wajib-minhaj",
-   "scienceId": "usul",
-   "issueId": "sample-wajib",
-   "bookId": "sample-minhaj",
-   "lead": "الواجب:",
-   "body": "ما يذم شرعاً تاركه قصداً مطلقاً",
-   "sample": true,
-   "createdAt": 1792670400020,
-   "updatedAt": 1792670400020
-  }
- ],
+ "passages": [],
  "links": [
   {
-   "id": "sample-link-0",
+   "id": "0e52ccce-d108-4d00-bf89-cd00c75802fc",
    "scienceId": "usul",
-   "from": "sample-mutamad",
-   "to": "sample-mahsul",
-   "note": "ذكر ابن خلدون أن المحصول والإحكام جمعا ما في كتب المتكلمين الأربعة، ومنها المعتمد والمستصفى",
-   "sample": true,
-   "createdAt": 1792670400000
+   "from": "b9ef41b1-7a43-4672-8ec6-88369eeb05b9",
+   "to": "f20df2f6-8d1a-4966-9cba-dff48c28666e",
+   "note": "ملخص",
+   "rel": "base",
+   "createdAt": 1793302696870
   },
   {
-   "id": "sample-link-1",
+   "id": "47cdffbf-4204-410b-801b-28568b2dffc2",
    "scienceId": "usul",
-   "from": "sample-mustasfa",
-   "to": "sample-mahsul",
-   "note": "ذكر ابن خلدون أن المحصول والإحكام جمعا ما في كتب المتكلمين الأربعة، ومنها المعتمد والمستصفى",
-   "sample": true,
-   "createdAt": 1792670400000
+   "from": "09da5ece-b763-40bc-82c7-7d855cc391e9",
+   "to": "ab42d993-460e-4d50-83c3-daf73fd47283",
+   "note": "شرح",
+   "rel": "base",
+   "createdAt": 1793303544683
   },
   {
-   "id": "sample-link-2",
+   "id": "797f912f-88f8-4ba9-a32b-4c84e54b120a",
    "scienceId": "usul",
-   "from": "sample-mutamad",
-   "to": "sample-ihkam",
-   "note": "ذكر ابن خلدون أن المحصول والإحكام جمعا ما في كتب المتكلمين الأربعة، ومنها المعتمد والمستصفى",
-   "sample": true,
-   "createdAt": 1792670400000
+   "from": "09da5ece-b763-40bc-82c7-7d855cc391e9",
+   "to": "910dad79-f3b6-476a-8251-8eb28286a207",
+   "note": "مختصر",
+   "rel": "base",
+   "createdAt": 1793303956760
   },
   {
-   "id": "sample-link-3",
+   "id": "894de822-a6f1-4982-a3e5-8a9cbbef21c8",
    "scienceId": "usul",
-   "from": "sample-mustasfa",
-   "to": "sample-ihkam",
-   "note": "ذكر ابن خلدون أن المحصول والإحكام جمعا ما في كتب المتكلمين الأربعة، ومنها المعتمد والمستصفى",
-   "sample": true,
-   "createdAt": 1792670400000
+   "from": "8cba881d-d83f-43bc-bb27-26ce5c0c06b8",
+   "to": "48057e85-8947-4205-abfd-0ef652a957cf",
+   "note": "نظم",
+   "rel": "base",
+   "createdAt": 1793304427862
   },
   {
-   "id": "sample-link-4",
+   "id": "eb6a2eac-04f4-4449-a3ee-f0da65aeffdf",
    "scienceId": "usul",
-   "from": "sample-mahsul",
-   "to": "sample-hasil",
-   "note": "الحاصل اختصار للمحصول",
-   "sample": true,
-   "createdAt": 1792670400000
+   "from": "8cba881d-d83f-43bc-bb27-26ce5c0c06b8",
+   "to": "4a160193-7d12-465d-b21e-d0f5d7519e99",
+   "note": "شرح",
+   "rel": "base",
+   "createdAt": 1793304836780
+  }
+ ],
+ "authors": [
+  {
+   "id": "0109bd33-f46b-4df6-a772-ceb257cfa802",
+   "name": "أبو الوليد الباجي",
+   "death": 474,
+   "deathG": 1081,
+   "createdAt": 1793299338323
   },
   {
-   "id": "sample-link-5",
-   "scienceId": "usul",
-   "from": "sample-hasil",
-   "to": "sample-minhaj",
-   "note": "بنى البيضاوي المنهاج على الحاصل",
-   "sample": true,
-   "createdAt": 1792670400000
+   "id": "0f7f52b1-a08b-4014-9b3a-3b10bea8e64f",
+   "name": "القاضي أبو علي الحسين ابن عتيق بن رشيق الربعي المالكي",
+   "death": 632,
+   "createdAt": 1793171419759
   },
   {
-   "id": "sample-link-6",
-   "scienceId": "usul",
-   "from": "sample-ihkam",
-   "to": "sample-mukhtasar",
-   "note": "اختصر ابن الحاجب الإحكام في منتهى السول، ثم اختصر المنتهى في هذا المختصر",
-   "sample": true,
-   "createdAt": 1792670400000
+   "id": "164f2b68-864f-4adc-a1e5-3a34a3059751",
+   "name": "يحيى بن نور الدين بن موسى الشافعي",
+   "death": 989,
+   "createdAt": 1793304427859
   },
   {
-   "id": "sample-link-7",
-   "scienceId": "usul",
-   "from": "sample-mukhtasar",
-   "to": "sample-jam",
-   "note": "ذكر السبكي أن عمدته شرحاه على المختصر والمنهاج مع زيادات من نحو مئة مصنف",
-   "sample": true,
-   "createdAt": 1792670400000
+   "id": "2b7ead0a-c4fc-4eb8-a622-b4edafd31309",
+   "name": "أبو عبد الله محمد بن علي بن عمر بن محمد التميمي المازري",
+   "death": 536,
+   "createdAt": 1793303544676,
+   "birth": 453
   },
   {
-   "id": "sample-link-8",
+   "id": "3c27302d-5bd5-479a-96db-34c18e96a565",
+   "name": "القاضي عبد الوهاب بن علي بن نصر البغدادي المالكي",
+   "death": 422,
+   "createdAt": 1793170618071
+  },
+  {
+   "id": "56f0a707-4cdf-440f-9fbd-3bba65d66387",
+   "name": "الفقيه أبو عبيد القاسم بن خلف الجبيري المالكي",
+   "death": 378,
+   "createdAt": 1793171759872
+  },
+  {
+   "id": "5cebae34-a130-484b-a888-0b97eb0c2708",
+   "name": "الإمام أبو إسحاق إبراهيم بن علي الشيرازي",
+   "death": 476,
+   "createdAt": 1793299706841
+  },
+  {
+   "id": "6d493bb8-3c54-4d2c-bc48-abf4037fb67d",
+   "name": "الإمام علي بن إسماعيل الأبياري",
+   "death": 618,
+   "createdAt": 1793171310689
+  },
+  {
+   "id": "7bde9774-da23-4366-8800-b76c7eaa717b",
+   "name": "القاضي أبو بكر محمد بن الطيب الباقلاني",
+   "death": 403,
+   "createdAt": 1793169135366
+  },
+  {
+   "id": "7c196ca5-ca78-4785-92bd-629cb020fb55",
+   "name": "الإمام أبو الحسن علي بن محمد البصري الماوردي",
+   "death": 450,
+   "createdAt": 1793296809809,
+   "birth": 364
+  },
+  {
+   "id": "8016986e-269c-478a-82c3-6b56ddd1e2d1",
+   "name": "إمام الحرمين أبو المعالي عبد الملك بن عبد الله بن يوسف الجويني",
+   "death": 478,
+   "createdAt": 1793148159393,
+   "birth": 419
+  },
+  {
+   "id": "8af1e4f0-4be7-441d-8655-908ccf99aab2",
+   "name": "المحقق العلامة سعد الدين مسعود بن عمر التفتازاني",
+   "death": 792,
+   "createdAt": 1793304836777
+  },
+  {
+   "id": "909e8ab2-8138-4a75-9314-e6d95af57c60",
+   "name": "الإمام أبو الحسن الكرخي",
+   "death": 340,
+   "createdAt": 1793174226766
+  },
+  {
+   "id": "9576a10e-6afc-4630-bb6f-5ddabddf934e",
+   "name": "العلامة أبو علي الحسن بن شهاب بن الحسن العُكْبَري الحنبلي",
+   "death": 428,
+   "createdAt": 1793172370697,
+   "birth": 335
+  },
+  {
+   "id": "97096492-303c-411c-aa86-bac8806d7342",
+   "name": "الحافظ أبو محمد علي بن حزم الأندلسي الظاهري",
+   "death": 457,
+   "createdAt": 1793297314205
+  },
+  {
+   "id": "9980cf4c-7670-41cd-8ea4-e9c75f2c3e68",
+   "name": "عاطف شمس",
+   "createdAt": 1793172905168,
+   "alive": true
+  },
+  {
+   "id": "9e9c6871-74c4-4dc6-9b68-f94085999d10",
+   "name": "أبو عبد الله محمد بن إدريس بن العباس المطلبي الشافعي",
+   "death": 204,
+   "createdAt": 1793169219380,
+   "birth": 150
+  },
+  {
+   "id": "9f95c19e-c494-44ff-ad58-26a8fa0fbb65",
+   "name": "الإمام أبو العباس أحمد بن إدريس الصنهاجي المعروف بالقرافي",
+   "death": 684,
+   "createdAt": 1793171527376
+  },
+  {
+   "id": "b725b126-0014-4dee-84f4-6faf134eba7d",
+   "name": "ناصر الدين ابن المنير أحمد بن محمد بن منصور الاسكندراني المالكي",
+   "death": 683,
+   "createdAt": 1793303956758
+  },
+  {
+   "id": "c1482769-ea59-485e-baea-00279f297da0",
+   "name": "الإمام أبو الحسن علي بن عمر بن القصار المالكي",
+   "death": 397,
+   "createdAt": 1793169561766
+  },
+  {
+   "id": "cceff0c8-41c4-47bf-b0f6-eba6b4443255",
+   "name": "القاضي أبو يعلى محمد بن الحسين الفرَّاء البغدادي الحنبلي",
+   "death": 458,
+   "createdAt": 1793298666022,
+   "birth": 380
+  },
+  {
+   "id": "d1ee0336-0703-4c96-925d-1d08e64d4e5a",
+   "name": "د. سعد بن ناصر بن عبد العزيز الشثري",
+   "createdAt": 1793173398616,
+   "alive": true
+  },
+  {
+   "id": "d88f8ac9-08c6-47d7-9733-61efdbd3a8cc",
+   "name": "الإمام أبو زيد عبيد الله عمر بن عيسى الدبوسي الحنفي",
+   "death": 430,
+   "createdAt": 1793173995569
+  },
+  {
+   "id": "da49ffe2-f27a-47aa-997d-baec14df5151",
+   "name": "أبو الحسين محمد بن علي بن الطيب البصري المعتزلي",
+   "death": 436,
+   "createdAt": 1793174605372
+  },
+  {
+   "id": "da753cb3-bb50-4a5a-a988-74a5d495b33f",
+   "name": "أبو عبد الله محمد بن عمر الأندلسي المعروف بابن الفخَّار",
+   "death": 419,
+   "createdAt": 1793171872575
+  }
+ ],
+ "xlinks": [],
+ "entries": [
+  {
+   "id": "20a6466f-f591-4e5f-9de5-10f73ebf06ff",
    "scienceId": "usul",
-   "from": "sample-minhaj",
-   "to": "sample-jam",
-   "note": "ذكر السبكي أن عمدته شرحاه على المختصر والمنهاج مع زيادات من نحو مئة مصنف",
-   "sample": true,
-   "createdAt": 1792670400000
+   "bookId": "4a160193-7d12-465d-b21e-d0f5d7519e99",
+   "issueId": "8b640e06-ba55-4478-b2ab-f12872cb7940",
+   "heading": "ترتيب الآأدله",
+   "order": 9,
+   "createdAt": 1793306480354
+  },
+  {
+   "id": "39b0852c-1bb0-4aaf-995b-9241b91b598f",
+   "scienceId": "usul",
+   "bookId": "4a160193-7d12-465d-b21e-d0f5d7519e99",
+   "issueId": "db50faf1-e1ca-4b35-87a1-bcacb438d2e3",
+   "heading": "الترجيح",
+   "order": 8,
+   "createdAt": 1793306480354
+  },
+  {
+   "id": "3c1d57ad-4746-4584-bd6a-bf5c42812f50",
+   "scienceId": "usul",
+   "bookId": "4a160193-7d12-465d-b21e-d0f5d7519e99",
+   "issueId": "493071b0-4f41-47cf-8ab4-d24e1086d76f",
+   "heading": "النسخ",
+   "order": 3,
+   "createdAt": 1793306480354
+  },
+  {
+   "id": "671031b0-da09-4288-9a87-5ccabe4e49d4",
+   "scienceId": "usul",
+   "bookId": "4a160193-7d12-465d-b21e-d0f5d7519e99",
+   "issueId": "a25d3ce1-aef5-476f-878a-5576fc218306",
+   "heading": "الاستصحاب",
+   "order": 7,
+   "createdAt": 1793306480354
+  },
+  {
+   "id": "84014db9-74e5-426b-a028-0b41cc6ec2a1",
+   "scienceId": "usul",
+   "bookId": "4a160193-7d12-465d-b21e-d0f5d7519e99",
+   "issueId": "444d31b4-44a8-4bf3-9ac4-95e57cdf1838",
+   "heading": "الاجتهاد",
+   "order": 12,
+   "createdAt": 1793306480354
+  },
+  {
+   "id": "995ed9f8-1bcd-4fa0-b4b8-e99df0399c40",
+   "scienceId": "usul",
+   "bookId": "4a160193-7d12-465d-b21e-d0f5d7519e99",
+   "issueId": "f16feb72-3341-4228-965b-9f7eaeff702d",
+   "heading": "شروط المفتي",
+   "order": 10,
+   "createdAt": 1793306480354
+  },
+  {
+   "id": "a3fa20e6-eb65-418d-9044-d4bc6db209b8",
+   "scienceId": "usul",
+   "bookId": "4a160193-7d12-465d-b21e-d0f5d7519e99",
+   "issueId": "8d70a6b8-b2a4-49f5-87ea-2b3b0a7faf88",
+   "heading": "فصل في التعارض",
+   "order": 4,
+   "createdAt": 1793306480354
+  },
+  {
+   "id": "b688c050-ecfe-4a8c-a0bb-0c7cd2aa62ea",
+   "scienceId": "usul",
+   "bookId": "4a160193-7d12-465d-b21e-d0f5d7519e99",
+   "issueId": "74690233-2ddd-4171-a0e8-c22e83a3ea17",
+   "heading": "الإجماع",
+   "order": 5,
+   "createdAt": 1793306480354
+  },
+  {
+   "id": "bbdfc5bd-bf0b-4f51-9879-157c634689f7",
+   "scienceId": "usul",
+   "bookId": "4a160193-7d12-465d-b21e-d0f5d7519e99",
+   "issueId": "23dafd17-aba3-4e14-a222-fdb0ad0fbec9",
+   "heading": "فصل في الأفعال",
+   "order": 2,
+   "createdAt": 1793306480354
+  },
+  {
+   "id": "d7175516-9438-481f-b91a-438160e7ec55",
+   "scienceId": "usul",
+   "bookId": "4a160193-7d12-465d-b21e-d0f5d7519e99",
+   "issueId": "0e72d240-39a5-46c2-843e-fced673e9e3c",
+   "heading": "شروط المستفتي",
+   "order": 11,
+   "createdAt": 1793306480354
+  },
+  {
+   "id": "d8cb8294-585d-4e4c-8a45-775f8ef797b9",
+   "scienceId": "usul",
+   "bookId": "4a160193-7d12-465d-b21e-d0f5d7519e99",
+   "issueId": "25b9f355-5d08-4a13-8aa8-badc0dabfbe8",
+   "heading": "الأمر",
+   "order": 1,
+   "createdAt": 1793306480354
+  },
+  {
+   "id": "f3b95cfa-6d8e-40af-b2ac-e88a4d1a001c",
+   "scienceId": "usul",
+   "bookId": "4a160193-7d12-465d-b21e-d0f5d7519e99",
+   "issueId": "4891f8f2-f328-42bd-815c-1498361d664f",
+   "heading": "القياس",
+   "order": 6,
+   "createdAt": 1793306480354
   }
  ]
 }
